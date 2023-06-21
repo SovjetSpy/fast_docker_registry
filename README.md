@@ -1,11 +1,11 @@
 # fast_docker_registry
-fast way of creating a lets encrypt docker registry with gui. I did not find a out of the box solution, so I made this one.
+fast way of creating a let's encrypt docker registry with GUI. I did not find an out-of-the-box solution, so I made this one.
 
-Just swap \<your email\> in nginx-certbot.env with your email an \<your domain\> in user_conf.d/nginx.conf to your domain name and your good to go.
+Just swap \<your email\> in nginx-certbot.env with your email and \<your domain\> in user_conf.d/nginx.conf to your domain name and you are good to go.
 
 ## Disclaimer
 
-I only tested this on my Raspberry pi 4. I se no reason as to why this should not work on other architectures, but no guarantees.
+I only tested this on my Raspberry Pi 4. I see no reason why this should not work on other architectures, but no guarantees.
 
 ## Acknowledgement
 
