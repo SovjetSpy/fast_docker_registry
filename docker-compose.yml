@@ -25,8 +25,6 @@ services:
   registry-ui:
     image: joxit/docker-registry-ui:main
     restart: always
-    ports:
-      - 8000:80
     env_file:
       - ./registry_ui.env
     container_name: registry-ui
